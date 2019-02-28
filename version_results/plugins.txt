@@ -1,0 +1,14 @@
+  - kubernetes:1.14.6
+  - workflow-aggregator:2.6
+  - workflow-job:2.31
+  - workflow-cps:2.63
+  - workflow-basic-steps:2.14
+  - credentials-binding:1.18
+  - bitbucket:1.1.8
+  - ldap:1.20
+  - git:3.9.3
+  - github-organization-folder:1.6
+  - blueocean:1.11.1
+  - slack:2.18
+  - role-strategy:2.10
+  - aqua-microscanner:1.0.5
