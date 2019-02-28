@@ -16,4 +16,4 @@ git clone https://github.com/ChrisAshton/jenkins_plugins_version_checker.git
 Run the following code in the cloned folder
 ```
 bash run_version_checker.sh
-``
+```
