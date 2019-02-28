@@ -1,7 +1,7 @@
 #!/bin/bash
 
-PLUGINS=version_results/plugins.txt
-UPDATES=version_results/updated_plugins.txt
+PLUGINS=jenkins_plugins_versions_$DATE/plugins.txt
+UPDATES=jenkins_plugins_versions_$DATE/updated_plugins.txt
 
 APPLICATION=$(echo $1 | cut -f1 -d":");
 LOCAL_VERSION_NUMBER=$(echo $1 | cut -f2 -d":");
