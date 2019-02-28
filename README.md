@@ -1,6 +1,6 @@
 # Jenkins plugins version checker
 ---
-This script is for the ops engineer running jenkins in a kubernetes cluster and using a configmap named "jenkins" for configuration details. It also assumes that jenkins (and its configmap) are living in a namespace named 'pipeline'  
+This script is for the ops engineer running jenkins in a kubernetes cluster and using a configmap named "jenkins" for configuration details. It also assumes this jenkins configmap is living in a kubernetes namespace named 'pipeline'  
 
 This script will get the plugins in the current jenkins configuration and look for a newer version for each at https://plugins.jenkins.io/.  
 
