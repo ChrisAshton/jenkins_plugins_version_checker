@@ -24,11 +24,3 @@ else
   echo "https://plugins.jenkins.io/$APPLICATION" >> $UPDATES
   echo '' >> $UPDATES
 fi
-
-
-# To avoid adding to existing files, empty the version_checker folder with:
-# [ -d "version_results" ] && rm version_results/*
-#----
-# This for loop will pull the most current jenkins plugins from the jenkins configmap in the pipeline namespace and apply this bash script to each.
-#for item in $(printf $(kubectl get cm jenkins -n pipeline -o json | jq '.data["plugins.txt"]') | tr -d '"'); do ./version_checker.sh $item; done
-#---
